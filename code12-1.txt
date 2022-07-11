@@ -1,0 +1,6 @@
+const entry = array.find(e => e.key === key);
+if (entry) {
+    entry.value = value;
+} else {
+    array.push({key, value});
+}
